@@ -1,0 +1,16 @@
+# Avoid creation of unnecessary big commit objects
+# For these files we do not want to see text diff for
+*.min.* binary minified
+*js.map* binary
+*.ogg binary
+*.svg binary
+*.mtl binary
+*.obj binary
+*.jpg  binary
+*.jpeg binary
+*.png binary
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.psb filter=lfs diff=lfs merge=lfs -text
+assets/raw_assets/*.* filter=lfs diff=lfs merge=lfs -text
