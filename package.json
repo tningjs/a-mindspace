@@ -5,10 +5,10 @@
   "license": "MIT",
   "scripts": {
     "start": "live-server --port=7000",
-    "deploy": "ghpages"
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
-    "ghpages": "0.0.3",
+    "gh-pages": "^2.1.1",
     "live-server": "^1.2.0"
   },
   "keywords": [
