@@ -10,3 +10,5 @@ Built with [A-Frame](https://aframe.io).
 npm install
 npm run start
 ```
+
+[##CONTRIBUTING](CONTRIBUTING.md)
